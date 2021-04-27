@@ -6,7 +6,7 @@ while (i<=100) {
 
     if ((i % 3==0)&&(i % 5 == 0)) {
       console.log(i + "  FIZZ-BUZZ") ;
-        
+        document.getElementById("fizzbuzz").innerHTML= "<li>"+i+"</li>";
     } else if(i % 3== 0){
       
         console.log(i + "  FIZZ");
@@ -20,6 +20,6 @@ while (i<=100) {
 
     i++
 
-
+    
 
 }
